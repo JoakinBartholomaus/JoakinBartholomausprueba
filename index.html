@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Page</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            font-size: small;
+        }
+    </style>
+</head>
+<body>
+    <h3>Joakin Bartholomaus</h3>
+    <h3>4to año Ingeniería Civil Industrial</h3>
+    <p>Soy estudiante de 4to año de Ingeniería
+        Civil Industrial de la Universidad De Los
+        Andes. He tomado varios cursos relacionados
+        a programación, pero lo que más me apaciona
+        son los cursos relacionados a economía, como microeconomía 
+        o econometría.
+    </p>
+    <a href="https://github.com/JoakinBartholomaus/JoakinBartholomaus.github.io">Mi página de github</a>
+    <table class = "table-style">
+        <tr>
+            <th>skill</th>
+            <th>level</th>
+        </tr>
+        <tr>
+            <td>Excel</td>
+            <td>Advance</td>
+        </tr>
+        <tr>
+            <td>SQL</td>
+            <td>Advance</td>
+        </tr>
+        <tr>
+            <td>Stata</td>
+            <td>beginner</td>
+        </tr>
+        <tr>
+            <td>python</td>
+            <td>medium</td>
+        </tr>
+        <tr>
+            <td>English</td>
+            <td>Advance</td>
+        </tr>
+        <tr>
+            <td>Spanish</td>
+            <td>Native</td>
+        </tr>
+    </table>
+
+    <input type="text" id = "inputText">
+    <button onclick= "document.getElementById('ActualizarSeccion').innerText = document.getElementById('inputText').value">Actualizar</button>
+    <div id = "ActualizarSeccion"></div>
+ 
+</body>
+</html>
